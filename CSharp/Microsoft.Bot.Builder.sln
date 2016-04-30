@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Bot.Builder", "Library\Microsoft.Bot.Builder.csproj", "{CDFEC7D6-847E-4C13-956B-0A960AE3EB60}"
 EndProject
@@ -47,6 +47,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RView", "Tools\RView\RView.csproj", "{12CAE029-7B8D-4928-8504-28746C36ADB3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Bot.Sample.SimpleFacebookAuthBot", "Samples\SimpleFacebookAuthBot\Microsoft.Bot.Sample.SimpleFacebookAuthBot.csproj", "{EA7E0647-B1FE-4813-B6FC-8DC518A4D2DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore", "D:\Project\BotFramework\OnlineStore\OnlineStore.csproj", "{B8BBAA5E-9FD6-4146-A61B-78893026E503}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,12 @@ Global
 		{EA7E0647-B1FE-4813-B6FC-8DC518A4D2DF}.Documentation|Any CPU.Build.0 = Debug|Any CPU
 		{EA7E0647-B1FE-4813-B6FC-8DC518A4D2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA7E0647-B1FE-4813-B6FC-8DC518A4D2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BBAA5E-9FD6-4146-A61B-78893026E503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BBAA5E-9FD6-4146-A61B-78893026E503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BBAA5E-9FD6-4146-A61B-78893026E503}.Documentation|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BBAA5E-9FD6-4146-A61B-78893026E503}.Documentation|Any CPU.Build.0 = Debug|Any CPU
+		{B8BBAA5E-9FD6-4146-A61B-78893026E503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BBAA5E-9FD6-4146-A61B-78893026E503}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,5 +157,6 @@ Global
 		{9C7E3A46-B60F-4052-9A21-DC8D1A942216} = {FAEFFF66-7944-48F4-972A-9A1C13A5C206}
 		{12CAE029-7B8D-4928-8504-28746C36ADB3} = {797080F6-66BB-4B09-A202-1A0704E36503}
 		{EA7E0647-B1FE-4813-B6FC-8DC518A4D2DF} = {FAEFFF66-7944-48F4-972A-9A1C13A5C206}
+		{B8BBAA5E-9FD6-4146-A61B-78893026E503} = {FAEFFF66-7944-48F4-972A-9A1C13A5C206}
 	EndGlobalSection
 EndGlobal
